@@ -16,24 +16,23 @@
       <nav>
         <div class="personal__logo">Joshua</div>
         <ul class="nav__link--list">
-          <li>
-            <a
-              href=""
-              class="nav__link--anchor link__hover-effect link__hover-effect-black"
-              >Languages</a
-            >
+          <li class="nav__link">
+            <a href="#languages" class="nav__link--anchor
+             link__hover-effect 
+             link__hover-effect--black"
+              >Languages</a>
           </li>
-          <li>
-            <a
-              href=""
-              class="nav__link--anchor link__hover-effect link__hover-effect-black"
-              >Projects</a
-            >
+          <li class="nav__link">
+            <a href="#projects" class="nav__link--anchor
+            link__hover-effect 
+            link__hover-effect--black"
+              >Projects</a>
           </li>
-          <li>
-            <a href="" class="nav__link--anchor nav__link--anchor-primary"
-              >Contact</a
-            >
+          <li class="nav__link">
+            <a href="mailto:jravellowharton@gmail.com" class="
+            nav__link--anchor 
+            nav__link--anchor-primary"
+            >Contact</a>
           </li>
         </ul>
       </nav>
@@ -48,7 +47,10 @@
               />
             </figure>
             <h1 class="about-me__info--title">
-              Hey I'm <span class="text--purple">Joshua</span> 👋
+              Hey I'm <span class="text--purple">Joshua</span>&nbsp;<span
+                class="wave"
+                >👋</span
+              >
             </h1>
             <p class="about-me__info--para">
               Im a <strong class="text--purple">software engineer</strong> with
@@ -261,22 +263,44 @@
       </div>
     </section>
     <footer>
-        <div class="row footer__row" >
-            <a href="#">
-                <figure class="footer__logo">
-                    <img src="./assets/logo.svg" class="footer__logo--img" alt="">
-                </figure>
-                <span class="footer__logo--popper">
-                    Top</span>
-            </a>
-            <div class="footer__social--list">
-                <a href="https://www.google.com" class="footer__social--link link__hover-effect link__hover-effect--white" target="_blank">GitHub</a>
-                <a href="https://www.google.com" class="footer__social--link link__hover-effect link__hover-effect--white" target="_blank">LinkedIn</a>
-                <a href="mailto:jravellowharton@gmail.com" class="footer__social--link link__hover-effect link__hover-effect--white" target="_blank">Email</a>
-                <a href="./assets/Example Resume.pdf" class="footer__social--link link__hover-effect link__hover-effect--white" target="_blank" download="">Resume</a>
-            </div>
-            <div class="footer__copyright">Copyright ©  2022 Joshua</div>
+      <div class="row footer__row">
+        <a href="#" class="footer__anchor">
+          <figure class="footer__logo">
+            <img src="./assets/logo.svg" class="footer__logo--img" alt="" />
+          </figure>
+          <span class="footer__logo--popper">
+            Top
+            <i class="fas fa-arrow-up"></i
+          ></span>
+        </a>
+        <div class="footer__social--list">
+          <a
+            href="https://www.google.com"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >GitHub</a
+          >
+          <a
+            href="https://www.google.com"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >LinkedIn</a
+          >
+          <a
+            href="mailto:jravellowharton@gmail.com"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >Email</a
+          >
+          <a
+            href="./assets/Example Resume.pdf"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >Resume</a
+          >
         </div>
+        <div class="footer__copyright">Copyright © 2022 Joshua</div>
+      </div>
     </footer>
   </body>
 </html>
